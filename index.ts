@@ -1,4 +1,4 @@
-const slides = document.querySelectorAll('.slide');
+const slides: NodeListOf<Element> = document.querySelectorAll('.slide')
 
 slides.forEach((slide) => {
   slide.addEventListener('click', () => {

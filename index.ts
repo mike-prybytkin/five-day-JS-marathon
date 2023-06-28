@@ -1,5 +1,5 @@
 const slidesPlugin = (activeSlide = 0) => {
-  const slides = document.querySelectorAll('.slide');
+  const slides: NodeListOf<Element> = document.querySelectorAll('.slide');
 
   slides[activeSlide].classList.add('active');
 
